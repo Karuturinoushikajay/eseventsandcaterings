@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" role="img" aria-label="Pro. Emmadi Suresh Events and Catering">
+  <!-- Emblem: mint circle, green arc, utensils, orange ES -->
+  <circle cx="58" cy="60" r="44" fill="#6ecfc0"/>
+  <path d="M14 60a44 44 0 0 1 88 0" fill="none" stroke="#1f6b4a" stroke-width="10" stroke-linecap="round"/>
+  <g fill="#111" transform="translate(58 60)">
+    <path d="M-8-18v36M8-18v36" stroke="#111" stroke-width="3.5" fill="none"/>
+    <ellipse cx="-8" cy="-20" rx="5" ry="3"/>
+    <ellipse cx="8" cy="-20" rx="5" ry="3"/>
+  </g>
+  <text x="58" y="72" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="28" font-weight="700" fill="#f07820">ES</text>
+  <!-- Wordmark -->
+  <text x="120" y="48" font-family="Poppins, Arial, sans-serif" font-size="18" font-weight="500" fill="#111">Pro. Emmadi Suresh</text>
+  <text x="120" y="82" font-family="Poppins, Arial, sans-serif" font-size="26" font-weight="800" letter-spacing="1" fill="#111">EVENTS&amp;CATERING</text>
+  <path d="M318 68h14v8h-14z M332 60h8v16h-8z" fill="none" stroke="#f07820" stroke-width="2"/>
+  <path d="M320 58c4-6 10-6 14 0" fill="none" stroke="#f07820" stroke-width="2"/>
+</svg>
