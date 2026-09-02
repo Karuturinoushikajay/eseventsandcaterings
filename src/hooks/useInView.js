@@ -13,6 +13,19 @@ export function useInView({ threshold = 0.15, rootMargin = '0px 0px -10% 0px' } 
     const node = ref.current
     if (!node || typeof IntersectionObserver === 'undefined') return
 
+    // Hero stats and similar elements can sit at the fold on first paint — treat
+    // any visible portion as "in view" so counters don't stick at zero.
+    const rect = node.getBoundingClientRect()
+    const alreadyVisible =
+      rect.bottom > 0 &&
+      rect.top < window.innerHeight &&
+      rect.right > 0 &&
+      rect.left < window.innerWidth
+    if (alreadyVisible) {
+      setInView(true)
+      return
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {

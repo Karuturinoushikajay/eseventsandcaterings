@@ -20,8 +20,10 @@ export const business = {
     { display: '+91 93983 37999', tel: '+919398337999', label: 'Bookings' },
     { display: '+91 91337 71141', tel: '+919133771141', label: 'Enquiries' },
   ],
-  // The inquiry form and the floating button open a chat with this number.
+  // Floating button, footer, and contact section.
   whatsapp: '919398337999',
+  // Request a Quote form sends enquiries here.
+  whatsappEnquiries: '919133771141',
   addressLines: [
     'Eluru - Jangareddigudem Road',
     'Guravaigudem, Jangareddigudem',

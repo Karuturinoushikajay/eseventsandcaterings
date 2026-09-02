@@ -47,7 +47,7 @@ function Stat({ stat, active, skipAnimation }) {
 }
 
 export default function StatsBar() {
-  const [ref, inView] = useInView({ threshold: 0.4 })
+  const [ref, inView] = useInView({ threshold: 0 })
   const reducedMotion = usePrefersReducedMotion()
 
   return (

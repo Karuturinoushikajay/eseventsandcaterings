@@ -90,7 +90,7 @@ export default function InquiryForm() {
       formatSelectedPackageForWhatsApp(values.menuType, values.packageChoice),
     ].filter((line) => line !== null)
 
-    const url = `https://wa.me/${business.whatsapp}?text=${encodeURIComponent(lines.join('\n'))}`
+    const url = `https://wa.me/${business.whatsappEnquiries}?text=${encodeURIComponent(lines.join('\n'))}`
     window.open(url, '_blank', 'noopener,noreferrer')
 
     setSent(true)
